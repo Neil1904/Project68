@@ -2,27 +2,71 @@
 
 <head>
     <title>School's Website</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxdn.bootstrapcdn.com/bootstrap/3.4.0/bootstrap.min.css"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <title>Sir Tim Berners-Lee</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
-    <nav class="navbar-inverse" style="position:sticky; top:0; z-index: 99999;">
+    <nav class="navbar-inverse" style="position:sticky; top:0; z-index: 99999">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">St.Xavier's School</a>
+            <a class="navbar-brand" href="#">Neil Nair</a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#schoolName">School Name</a></li>
+                <li><a href="#c-life">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#new">What's New</a></li>
+                <li><a href="#contactUs">Contact Us</a></li>
+            </ul>
         </div>
     </nav>
-</body>
+    <div class="announcement" id="schoolName">
+        <marquee id="marqueeStyle" onmouseout="this.start();" onmouseover="this.stop();" style="background-color: skyblue; padding-bottom: 10px; color: white;">*** Feel free to ask queries on info@doonblossomacademy.com ***</marquee>
+    </div>
+    <div><iframe width="100%" height="70%" src="https://www.youtube.com/embed/dS4qMe8DSxE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    
+    <section id="contact">
+        <div class="container">
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
+                <h2 class="text-capitalze">Contact Us</h2>
+            </div>
+        </div>
 
-</html>
+        <div id="maps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.6382795276118!2d72.59248081496939!3d23.110333684908653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e82fe946807e7%3A0xbfdb32b1dc410722!2sDoon%20Blossom%20Academy!5e0!3m2!1sen!2sin!4v1608918866198!5m2!1sen!2sin" width="1400" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+        <div>
+            <div id="details"><img id="pimg" src="download%20(1).jpg" class="img-responsive img-circle col-lg-3 col-md3 col-sm-3 col-xs-4">
+                <h3>Principal Name: </h3>
+                <h4>Mrs. Sushma Rajput</h4>
+                <div class="contact_1"><a href="mailto:info@doonblossomacademy.com?Subject=Hi"><i class="fa fa-envelope">&nbsp;&nbsp;<span>info@doonblossomacademy</span></i></a>
+                    <a href="https://www.instagram.com/_doonblossomacademy_/">
+                        <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp; Doon Blossom Academy</h5>
+                    </a>
+                    <a href="#">
+                        <h5><i class="fa fa-phone-sqaure"></i>&nbsp;&nbsp;079 3559 0924</h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body></html>
