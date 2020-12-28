@@ -85,3 +85,17 @@
 .movie_text span{
     color: #ff7700;
 }
+
+#contactUs iframe {
+    width: 100%;
+    padding-top: 15px;
+}
+
+.new_li{
+    margin-top: 13px;
+}
+
+.new_li h4{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
